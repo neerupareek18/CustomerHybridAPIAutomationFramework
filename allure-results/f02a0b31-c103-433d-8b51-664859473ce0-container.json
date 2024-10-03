@@ -1,0 +1,1 @@
+{"uuid":"f02a0b31-c103-433d-8b51-664859473ce0","name":"CustomerHybridAPIAutomationFramework","children":["37bf3034-9fd3-4277-b792-f7bd06f14536"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1727874005748,"stop":1727874006462}],"afters":[],"start":1727874005730,"stop":1727874009710}

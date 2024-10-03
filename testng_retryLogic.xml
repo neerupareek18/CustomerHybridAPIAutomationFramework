@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="APIAutomationFramework.listner.RetryListner"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="RetryLogicRun">
+        <classes>
+            <class name="APIAutomationFramework.testCases.CRUD.CreateBookingPOST">
+                <methods>
+                    <include name="createBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
